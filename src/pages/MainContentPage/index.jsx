@@ -2,7 +2,7 @@ import { useState } from "react";
 import TextboxLayouts from "../../components/layouts/TextboxLayouts";
 import { MdEmail } from "react-icons/md";
 import ErrorTextbox from "../../components/ErrorTextbox";
-import MainLayouts from "../../components/layouts/mainLayouts";
+import MainLayouts from "../../components/layouts/MainLayouts";
 import AboutCard from "../../components/AboutCard";
 import ReactAudioPlayer from "react-audio-player";
 
