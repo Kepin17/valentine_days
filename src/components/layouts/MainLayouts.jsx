@@ -38,9 +38,13 @@ const MainLayouts = (prop) => {
   };
   return (
     <div className="desktop:w-full desktop:h-screen bg-slate-800">
-      <div className="bg-app w-screen h-screen bg-slate-900 desktop:w-[50vh] overflow-hidden desktop:h-[80vh] desktop:absolute desktop:top-1/2 desktop:left-1/2 desktop:translate-x-[-50%] desktop:translate-y-[-50%] desktop:p-1 desktop:rounded-lg">
+      <div
+        className="bg-app w-screen h-screen bg-slate-900 desktop:w-[50vh] overflow-hidden desktop:h-[80vh] desktop:absolute desktop:top-1/2 desktop:left-1/2 desktop:translate-x-[-50%] desktop:translate-y-[-50%] desktop:p-1 desktop:rounded-lg
+     
+      "
+      >
         <div className="w-full h-full overflow-hidden desktop:rounded-lg">
-          <div className="w-full h-[20%] smallPhone:h-[30%] bg-[#FFC7D2]  flex flex-col items-center justify-center"></div>
+          <div className="w-full h-[25%] smallPhone:h-[30%] bg-[#FFC7D2]  flex flex-col items-center justify-center"></div>
           <img src="/images/welcome-page.jpg" alt="welcome-img" width={"100%"} />
           {children}
         </div>

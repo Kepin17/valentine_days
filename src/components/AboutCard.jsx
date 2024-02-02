@@ -10,14 +10,14 @@ const AboutCard = (prop) => {
     navigator.clipboard.writeText(discordName);
   };
   return (
-    <div className={`absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] hidden bg-[#fff] z-10 p-3  w-[80%] h-[35%] rounded-lg `} id={id}>
+    <div className={`absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] hidden bg-[#fff] z-10 p-3  w-[80%] h-auto rounded-lg `} id={id}>
       <div className="flex justify-between">
         <h1 className="flex gap-2 items-center text-2xl font-bold text-pink-500 ">
           <IoMdInformationCircle />
           About
         </h1>
         <IoIosCloseCircle
-          className="text-2xl"
+          className="text-2xl cursor-pointer"
           onClick={() => {
             const aboutDisplay = document.getElementById("about-display");
             aboutDisplay.classList.add("hidden");

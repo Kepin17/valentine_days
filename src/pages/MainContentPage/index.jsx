@@ -2,7 +2,7 @@ import { useState } from "react";
 import TextboxLayouts from "../../components/layouts/TextboxLayouts";
 import { MdEmail } from "react-icons/md";
 import ErrorTextbox from "../../components/ErrorTextbox";
-import MainLayouts from "../../components/layouts/mainLayouts";
+import MainLayouts from "../../components/layouts/MainLayouts";
 import AboutCard from "../../components/AboutCard";
 import ReactAudioPlayer from "react-audio-player";
 
@@ -19,7 +19,7 @@ const MainContentPage = () => {
     `Apa kabarmu hari ini, Baik?Pasti baik kan ya hahaha`,
     `Terimakasih sudah memilih ${maleName} menjadi orang spesial di dalam hidupmu`,
     `Aku tak sabar ingin segera bertemu dan jalan berdua denganmu hingga kita bisa hidup bersama`,
-    `Sebelumnya aku mau minta maaf kalau diriku mungkin pernah membuatmu kesal dan merasa kurang nyaman`,
+    `Sebelumnya aku mau minta maaf kalau diriku mungkin pernah membuatmu kesal`,
     `Aku cuman mau bilang , selamat hari valentine 2024 🎉`,
     `Di hari yang spesial ini kita berdua ingin melakukan kegiatan apa ?`,
     `Melakukan produktivitas atau rebahan seharian ? hahaha`,
